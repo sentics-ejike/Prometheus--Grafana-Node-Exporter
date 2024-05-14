@@ -39,6 +39,7 @@ scrape_configs:
       - targets: ['node_exporter:9100']
 
   ```
+`cd ..`
 
 # Create a docker-compose configuration file
 `nano docker-compose.yml`
