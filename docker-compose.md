@@ -38,9 +38,12 @@ scrape_configs:
     static_configs:
       - targets: ['node_exporter:9100']
 
+  ```
 
 # Create a docker-compose configuration file
-nano docker-compose.yml
+`nano docker-compose.yml`
+
+  ```
 version: '3.8'
 
 volumes:
@@ -80,6 +83,7 @@ services:
    restart: unless-stopped
    volumes:
     - grafana-data:/var/lib/grafana
+ 
   ```
 
 # Starts all the services defined in the current directory
