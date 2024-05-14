@@ -20,7 +20,7 @@ wget https://github.com/prometheus/node_exporter/releases/download/v1.8.0/node_e
 # Access Node Exporter Metrics:
 `curl http://localhost:9100/metrics`
 
-# Ceate a directory "prometheus" 
+# Ceate a directory prometheus
 
 `mkdir prometheus`
 `nano prometheus.yml`
