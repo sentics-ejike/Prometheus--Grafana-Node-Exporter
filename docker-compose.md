@@ -65,7 +65,7 @@ services:
       - '/:/host:ro'
 
   prometheus:
-    image: prom/prometheus:latest  # Corrected to lowercase
+    image: prom/prometheus:latest  
     container_name: prometheus
     ports:
       - '9090:9090'
